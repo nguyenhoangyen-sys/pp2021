@@ -9,6 +9,7 @@ def inputMark(n, m, a, b):
     for i in range (n):
         sid=a[0][i]
         mark=int(input("mark of student \t"+sid+a[1][i]+"\t"))
-        markl+=[cid,sid,mark]
+        markl+=[int(cid),sid,mark]
     print("\n\n\n The marks of students in course "+b[1][cidx-1]+" is:")
     return markl
+

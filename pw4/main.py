@@ -13,4 +13,4 @@ c=inputMark.inputMark(i, j, a, b)
 print(c)
 listMark.listMark(j, b, c)
 
-from packageCurses import outPut
+#from packageCurses import outPut
